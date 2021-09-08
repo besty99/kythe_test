@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "command": "",
+    "file": "CMakeFiles/edit_cache.util",
+    "output": "edit_cache"
+  },
+  {
+    "directory": "/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "command": "",
+    "file": "CMakeFiles/rebuild_cache.util",
+    "output": "rebuild_cache"
+  },
+  {
+    "directory": "/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "command": "",
+    "file": "CMakeFiles/HelloWorld",
+    "output": "HelloWorld"
+  },
+  {
+    "directory": "/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "command": "",
+    "file": "HelloWorld.jar",
+    "output": "CMakeFiles/HelloWorld"
+  },
+  {
+    "directory": "/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "command": "cd /home/miWorkSpace/kythe-test/cmake_helloworld/CMakeFiles/HelloWorld.dir && /usr/lib/java/jdk1.8.0_291/bin/jar -cf /home/miWorkSpace/kythe-test/cmake_helloworld/HelloWorld.jar @java_class_filelist && /usr/bin/cmake -D_JAVA_TARGET_DIR=/home/miWorkSpace/kythe-test/cmake_helloworld -D_JAVA_TARGET_OUTPUT_NAME=HelloWorld.jar -D_JAVA_TARGET_OUTPUT_LINK= -P /usr/share/cmake-3.16/Modules/UseJavaSymlinks.cmake",
+    "file": "CMakeFiles/HelloWorld.dir/java_class_filelist",
+    "output": "HelloWorld.jar"
+  },
+  {
+    "directory": "/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "command": "cd /home/miWorkSpace/kythe-test/cmake_helloworld && /usr/bin/cmake -DCMAKE_JAVA_CLASS_OUTPUT_PATH=/home/miWorkSpace/kythe-test/cmake_helloworld/CMakeFiles/HelloWorld.dir -DCMAKE_JAR_CLASSES_PREFIX=\"\" -P /usr/share/cmake-3.16/Modules/UseJavaClassFilelist.cmake",
+    "file": "CMakeFiles/HelloWorld.dir/java_compiled_HelloWorld",
+    "output": "CMakeFiles/HelloWorld.dir/java_class_filelist"
+  },
+  {
+    "directory": "/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "command": "cd /home/miWorkSpace/kythe-test/cmake_helloworld && /usr/lib/java/jdk1.8.0_291/bin/javac -source 1.8 -target 1.8 -classpath :/home/miWorkSpace/kythe-test/cmake_helloworld:/home/miWorkSpace/kythe-test/cmake_helloworld -d /home/miWorkSpace/kythe-test/cmake_helloworld/CMakeFiles/HelloWorld.dir @/home/miWorkSpace/kythe-test/cmake_helloworld/CMakeFiles/HelloWorld.dir/java_sources && /usr/bin/cmake -E touch /home/miWorkSpace/kythe-test/cmake_helloworld/CMakeFiles/HelloWorld.dir/java_compiled_HelloWorld",
+    "file": "HelloWorld.java",
+    "output": "CMakeFiles/HelloWorld.dir/java_compiled_HelloWorld"
+  },
+  {
+    "directory": "/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "command": "",
+    "file": "HelloWorld",
+    "output": "all"
+  },
+  {
+    "directory": "/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "command": "/usr/bin/cmake -S/home/miWorkSpace/kythe-test/cmake_helloworld -B/home/miWorkSpace/kythe-test/cmake_helloworld",
+    "file": "/usr/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in",
+    "output": "build.ninja"
+  }
+]
