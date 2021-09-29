@@ -1,0 +1,109 @@
+Sep 29, 2021 10:53:55 AM com.google.devtools.kythe.platform.java.JavaCompilationDetails createDetails
+SEVERE: Unexpected error in javac analysis of {signature: "#028a40f2c38f05b8dcbf78cce4ff0c6ddc9c503c7eafdab7f4bcb16c5a81fbf7"
+language: "java"
+}
+java.lang.IllegalArgumentException: out/soong/.intermediates/libcore/core-current-stubs-system-modules/android_common/system
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.setSystemOption(CompilationUnitPathFileManager.java:386)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.access$000(CompilationUnitPathFileManager.java:72)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager$1.handleFileManagerOption(CompilationUnitPathFileManager.java:189)
+	at jdk.compiler/com.sun.tools.javac.main.Option.process(Option.java:1138)
+	at jdk.compiler/com.sun.tools.javac.main.Option.handleOption(Option.java:1086)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.handleOption(CompilationUnitPathFileManager.java:181)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.doProcessArgs(Arguments.java:390)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.processArgs(Arguments.java:347)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.init(Arguments.java:246)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:185)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:119)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:68)
+	at com.google.devtools.kythe.platform.java.JavaCompilationDetails.createDetails(JavaCompilationDetails.java:110)
+	at com.google.devtools.kythe.platform.java.JavacAnalysisDriver.analyze(JavacAnalysisDriver.java:64)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.analyzeCompilation(JavaIndexer.java:179)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.main(JavaIndexer.java:115)
+
+Sep 29, 2021 10:53:55 AM com.google.devtools.kythe.platform.java.JavaCompilationDetails createDetails
+SEVERE: Unexpected error in javac analysis of {signature: "#0361a53b904c7cb262055dd84673e4c7643055ad9c4808d25b375968c907e42b"
+language: "java"
+}
+java.lang.IllegalArgumentException: out/soong/.intermediates/libcore/core-current-stubs-system-modules/android_common/system
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.setSystemOption(CompilationUnitPathFileManager.java:386)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.access$000(CompilationUnitPathFileManager.java:72)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager$1.handleFileManagerOption(CompilationUnitPathFileManager.java:189)
+	at jdk.compiler/com.sun.tools.javac.main.Option.process(Option.java:1138)
+	at jdk.compiler/com.sun.tools.javac.main.Option.handleOption(Option.java:1086)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.handleOption(CompilationUnitPathFileManager.java:181)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.doProcessArgs(Arguments.java:390)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.processArgs(Arguments.java:347)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.init(Arguments.java:246)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:185)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:119)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:68)
+	at com.google.devtools.kythe.platform.java.JavaCompilationDetails.createDetails(JavaCompilationDetails.java:110)
+	at com.google.devtools.kythe.platform.java.JavacAnalysisDriver.analyze(JavacAnalysisDriver.java:64)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.analyzeCompilation(JavaIndexer.java:179)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.main(JavaIndexer.java:115)
+
+Sep 29, 2021 10:53:55 AM com.google.devtools.kythe.platform.java.JavaCompilationDetails createDetails
+SEVERE: Unexpected error in javac analysis of {signature: "#05991d70cec4760527c8d19790c9e1e170b84dc7b0d1e83eb9e1cbbbce58b994"
+language: "java"
+}
+java.lang.IllegalArgumentException: out/soong/.intermediates/libcore/mmodules/core_platform_api/core-platform-api-stubs-system-modules/android_common/system
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.setSystemOption(CompilationUnitPathFileManager.java:386)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.access$000(CompilationUnitPathFileManager.java:72)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager$1.handleFileManagerOption(CompilationUnitPathFileManager.java:189)
+	at jdk.compiler/com.sun.tools.javac.main.Option.process(Option.java:1138)
+	at jdk.compiler/com.sun.tools.javac.main.Option.handleOption(Option.java:1086)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.handleOption(CompilationUnitPathFileManager.java:181)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.doProcessArgs(Arguments.java:390)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.processArgs(Arguments.java:347)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.init(Arguments.java:246)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:185)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:119)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:68)
+	at com.google.devtools.kythe.platform.java.JavaCompilationDetails.createDetails(JavaCompilationDetails.java:110)
+	at com.google.devtools.kythe.platform.java.JavacAnalysisDriver.analyze(JavacAnalysisDriver.java:64)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.analyzeCompilation(JavaIndexer.java:179)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.main(JavaIndexer.java:115)
+
+Sep 29, 2021 10:53:55 AM com.google.devtools.kythe.platform.java.JavaCompilationDetails createDetails
+SEVERE: Unexpected error in javac analysis of {signature: "#05d843d02de7d6d24b8d7a9c60d36c8e0174cdcc4102c0f354220bb1101c1024"
+language: "java"
+}
+java.lang.IllegalArgumentException: out/soong/.intermediates/libcore/core-all-system-modules/android_common/system
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.setSystemOption(CompilationUnitPathFileManager.java:386)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.access$000(CompilationUnitPathFileManager.java:72)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager$1.handleFileManagerOption(CompilationUnitPathFileManager.java:189)
+	at jdk.compiler/com.sun.tools.javac.main.Option.process(Option.java:1138)
+	at jdk.compiler/com.sun.tools.javac.main.Option.handleOption(Option.java:1086)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.handleOption(CompilationUnitPathFileManager.java:181)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.doProcessArgs(Arguments.java:390)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.processArgs(Arguments.java:347)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.init(Arguments.java:246)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:185)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:119)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:68)
+	at com.google.devtools.kythe.platform.java.JavaCompilationDetails.createDetails(JavaCompilationDetails.java:110)
+	at com.google.devtools.kythe.platform.java.JavacAnalysisDriver.analyze(JavacAnalysisDriver.java:64)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.analyzeCompilation(JavaIndexer.java:179)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.main(JavaIndexer.java:115)
+
+Sep 29, 2021 10:53:55 AM com.google.devtools.kythe.platform.java.JavaCompilationDetails createDetails
+SEVERE: Unexpected error in javac analysis of {signature: "#06b8fbf325305ebea9ec1bd257abe3df401ff4b2a027346582f123a951f7475e"
+language: "java"
+}
+java.lang.IllegalArgumentException: out/soong/.intermediates/libcore/core-current-stubs-system-modules/android_common/system
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.setSystemOption(CompilationUnitPathFileManager.java:386)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.access$000(CompilationUnitPathFileManager.java:72)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager$1.handleFileManagerOption(CompilationUnitPathFileManager.java:189)
+	at jdk.compiler/com.sun.tools.javac.main.Option.process(Option.java:1138)
+	at jdk.compiler/com.sun.tools.javac.main.Option.handleOption(Option.java:1086)
+	at com.google.devtools.kythe.platform.java.filemanager.CompilationUnitPathFileManager.handleOption(CompilationUnitPathFileManager.java:181)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.doProcessArgs(Arguments.java:390)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.processArgs(Arguments.java:347)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.init(Arguments.java:246)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:185)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:119)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:68)
+	at com.google.devtools.kythe.platform.java.JavaCompilationDetails.createDetails(JavaCompilationDetails.java:110)
+	at com.google.devtools.kythe.platform.java.JavacAnalysisDriver.analyze(JavacAnalysisDriver.java:64)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.analyzeCompilation(JavaIndexer.java:179)
+	at com.google.devtools.kythe.analyzers.java.JavaIndexer.main(JavaIndexer.java:115)
